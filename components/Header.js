@@ -44,7 +44,7 @@ function Header() {
                     />
                     <HeaderIcon
                         Icon={TelegramIcon}
-                        Link={"https://www.telegram.org/"}
+                        Link={"https://t.me/sberrytoken"}
                         Size={headerIconSize}
                     />
                     <HeaderIcon
