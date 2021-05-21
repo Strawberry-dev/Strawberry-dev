@@ -73,7 +73,9 @@ function Body() {
                                 <Button
                                     Icon={PancakeswapIcon}
                                     Name={"Buy on PancakeSwap"}
-                                    Link={"https://pancakeswap.finance/"}
+                                    Link={
+                                        "https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x484511cfce53b15298678794c31be4263ef62be4"
+                                    }
                                 />
                             </div>
                             <div>
@@ -81,7 +83,9 @@ function Body() {
                                 <Button
                                     Icon={PoocoinIcon}
                                     Name={"Poocoin Chart"}
-                                    Link={"https://poocoin.app/"}
+                                    Link={
+                                        "https://poocoin.app/tokens/0x484511cfce53b15298678794c31be4263ef62be4"
+                                    }
                                 />
                             </div>
                         </div>

@@ -49,19 +49,25 @@ function Header() {
                     />
                     <HeaderIcon
                         Icon={PancakeswapIcon}
-                        Link={"https://pancakeswap.finance/"}
+                        Link={
+                            "https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x484511cfce53b15298678794c31be4263ef62be4"
+                        }
                         Size={headerIconSize}
                     />
                     <HeaderIcon
                         Icon={BscscanIcon}
-                        Link={"https://www.bscscan.com/"}
+                        Link={
+                            "https://bscscan.com/token/0x484511cfce53b15298678794c31be4263ef62be4"
+                        }
                         Size={headerIconSize}
                     />
                 </div>
                 <div className="flex justify-center">
                     <HeaderIcon
                         Icon={PoocoinIcon}
-                        Link={"https://poocoin.app/"}
+                        Link={
+                            "https://poocoin.app/tokens/0x484511cfce53b15298678794c31be4263ef62be4"
+                        }
                         Size={headerIconSize}
                     />
                     <HeaderIcon
