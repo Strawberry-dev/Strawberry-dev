@@ -6,6 +6,10 @@ import AboutPage from "../components/AboutPage";
 import TokenomicsPage from "../components/TokenomicsPage";
 import RewardsModal from "../components/RewardsModal";
 
+import StrawberryTokenIcon from "./assets/sb-coin-sm.png";
+import PancakeswapIcon from "./assets/pancakeswap.png";
+import PoocoinIcon from "./assets/poocoin.png";
+
 function Body() {
     var coinIconSize = 50;
 
@@ -16,7 +20,7 @@ function Body() {
             {/* Home */}
             <div className="flex flex-col space-y-10" data-aos="zoom-in">
                 <CoinIcon
-                    Icon={"/../public/assets/sb-coin-sm.png"}
+                    Icon={StrawberryTokenIcon}
                     Link={"#top"}
                     Size={coinIconSize}
                 />
@@ -67,7 +71,7 @@ function Body() {
                             <div>
                                 {/* Buy */}
                                 <Button
-                                    Icon={"/../public/assets/pancakeswap.png"}
+                                    Icon={PancakeswapIcon}
                                     Name={"Buy on PancakeSwap"}
                                     Link={"https://pancakeswap.finance/"}
                                 />
@@ -75,7 +79,7 @@ function Body() {
                             <div>
                                 {/* Chart */}
                                 <Button
-                                    Icon={"/../public/assets/poocoin.png"}
+                                    Icon={PoocoinIcon}
                                     Name={"Poocoin Chart"}
                                     Link={"https://poocoin.app/"}
                                 />

@@ -1,6 +1,14 @@
 import HeaderButton from "./HeaderButton";
 import HeaderIcon from "./HeaderIcon";
 
+import TwitterIcon from "./assets/twitter.png";
+import TelegramIcon from "./assets/telegram.png";
+import PancakeswapIcon from "./assets/pancakeswap.png";
+import BscscanIcon from "./assets/bscscan.png";
+import PoocoinIcon from "./assets/poocoin.png";
+import CoingeckoIcon from "./assets/coingecko.png";
+import CoinmarketcapIcon from "./assets/coinmarketcap.png";
+
 function Header() {
     var headerIconSize = 50;
 
@@ -30,39 +38,39 @@ function Header() {
             >
                 <div className="flex justify-center">
                     <HeaderIcon
-                        Icon={"/../public/assets/twitter.png"}
+                        Icon={TwitterIcon}
                         Link={"https://www.twitter.com/"}
                         Size={headerIconSize}
                     />
                     <HeaderIcon
-                        Icon={"/../public/assets/telegram.png"}
+                        Icon={TelegramIcon}
                         Link={"https://www.telegram.org/"}
                         Size={headerIconSize}
                     />
                     <HeaderIcon
-                        Icon={"/../public/assets/pancakeswap.png"}
+                        Icon={PancakeswapIcon}
                         Link={"https://pancakeswap.finance/"}
                         Size={headerIconSize}
                     />
                     <HeaderIcon
-                        Icon={"/../public/assets/bscscan.png"}
+                        Icon={BscscanIcon}
                         Link={"https://www.bscscan.com/"}
                         Size={headerIconSize}
                     />
                 </div>
                 <div className="flex justify-center">
                     <HeaderIcon
-                        Icon={"/../public/assets/poocoin.png"}
+                        Icon={PoocoinIcon}
                         Link={"https://poocoin.app/"}
                         Size={headerIconSize}
                     />
                     <HeaderIcon
-                        Icon={"/../public/assets/coingecko.png"}
+                        Icon={CoingeckoIcon}
                         Link={"https://www.coingecko.com/"}
                         Size={headerIconSize}
                     />
                     <HeaderIcon
-                        Icon={"/../public/assets/coinmarketcap.png"}
+                        Icon={CoinmarketcapIcon}
                         Link={"https://www.coinmarketcap.com/"}
                         Size={headerIconSize}
                     />
